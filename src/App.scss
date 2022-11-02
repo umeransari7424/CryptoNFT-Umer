@@ -1,0 +1,115 @@
+nav{
+    background-color: #0b1426FF !important;
+    a{
+        color: white !important;
+    }
+    .search{
+        background-color: #0b1426FF;
+        border: 1px solid #fff;
+        padding: 3px 90px 3px 5px;
+        border-radius: 20px;
+        input{
+            background-color: transparent !important;
+            border: none !important;
+            outline: none !important;
+            color: white !important;
+          }
+        &:hover{
+            border: 2px solid #1199faFF !important;
+           
+        }
+    }
+    .dropdown-menu{
+        li{
+            a{    
+                color: black !important;
+                font-weight: 500;
+            }
+        }
+    }
+    .nav-button{
+        background-color: #11d0fa !important;
+        border: none;
+    }
+    .market{
+        font-weight: 500;
+    }
+}
+.collection{
+    .card{
+        border: none !important;
+        position: relative;
+         
+        .art{
+            img{
+                border-radius: 50%;
+            }
+            display: flex;
+            position: absolute;
+            bottom: 0;
+        }
+    }
+    .card1{
+        position: relative;
+        background-image: url("Media/n.png");
+        // background-size: 285%;
+        // background-position: center;
+        background-repeat: no-repeat;
+        &:hover{
+            border: 1px solid #1199faFF;
+            transform: scale(1.1);  
+           
+        }
+        .card-footer{
+            margin-top: auto;
+
+        }
+        
+    }
+    .card2{
+        background-image: url("Media/original.png");
+        // background-size: 150%;
+        // background-position: center;
+        background-repeat: no-repeat;
+        &:hover{
+            border: 1px solid #1199faFF;
+            transform: scale(1.1);   
+        }
+    }
+    .card3{
+        background-image: url("Media/qwer.png");
+        background-size: 100%;
+        // background-position: center;
+        background-repeat: no-repeat;
+        &:hover{
+            border: 1px solid #1199faFF;
+            transform: scale(1.1);   
+        }
+    }
+}
+.sidebar{
+    .gnJkew{
+        background-color: #0b1426FF;
+        
+    }
+    .lkTtqM:hover{
+        background-color: #949ba4FF !important;
+        color:none !important;
+
+    } 
+    .sc-pyfCe:hover{
+        background-color: #949ba4FF !important;
+        color: none !important;
+    }
+}
+
+
+
+
+
+
+// #####################################################
+body{
+    background-color: #0b1426FF !important;
+    color: white !important;;
+}
