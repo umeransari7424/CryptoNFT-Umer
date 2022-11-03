@@ -36,9 +36,26 @@ nav{
     }
 }
 .collection{
+    
     .card{
-        border: none !important;
+
+            .geeks {
+                width: 300px ;
+            height: 300px;
+            overflow: hidden;
+            margin: 0 auto;
+            &:hover{
+                transform: scale(1.1);
+                border: 2px solid #1199faFF;
+            }
+        }
+
+        
+       
+   
+        border: none!important;
         position: relative;
+        // height: 230px !important;
          
         .art{
             img{
@@ -49,45 +66,46 @@ nav{
             bottom: 0;
         }
     }
-    .card1{
-        position: relative;
-        background-image: url("Media/n.png");
-        // background-size: 285%;
-        // background-position: center;
-        background-repeat: no-repeat;
-        &:hover{
-            border: 1px solid #1199faFF;
-            transform: scale(1.1);  
-           
-        }
-        .card-footer{
-            margin-top: auto;
-
-        }
-        
-    }
-    .card2{
-        background-image: url("Media/original.png");
-        // background-size: 150%;
-        // background-position: center;
-        background-repeat: no-repeat;
-        &:hover{
-            border: 1px solid #1199faFF;
-            transform: scale(1.1);   
-        }
-    }
-    .card3{
-        background-image: url("Media/qwer.png");
-        background-size: 100%;
-        // background-position: center;
-        background-repeat: no-repeat;
-        &:hover{
-            border: 1px solid #1199faFF;
-            transform: scale(1.1);   
-        }
-    }
+   
 }
 .sidebar{
+    .sidebarcolomn{
+        // position: fixed !important;
+    }
+    .maincard{
+        .mainimg{
+            border-top-right-radius:15px ;
+            border-top-left-radius:15px ;
+        }
+        background-color: #0b1426FF !important;
+        border: none !important;
+        
+        .card-body{
+            background-color: white;
+            border-bottom-right-radius:15px ;
+            border-bottom-left-radius:15px ;
+
+        }
+    }
+    color: black !important;
+    .sidecards{
+        
+        img{
+            width: 40px;
+            border-radius: 50% !important;
+        }
+        span{
+        color: black !important;
+        }
+        .tickmark{
+            width: 20px;
+            border-radius: 50% !important;
+
+        }
+    }
+    .cronos{
+        color: black !important;
+    }
     .gnJkew{
         background-color: #0b1426FF !important;
         
@@ -101,9 +119,29 @@ nav{
         background-color: #949ba4FF !important;
         color: none !important;
     }
+    .menu{
+        overflow-y: scroll!important;
+    }
 }
 
+.footer{
+    .helpcenter{
+        a{
+            text-decoration: none !important;
+            color: white !important;
+        }
 
+    }
+}
+.cronos{
+    background-color: white;
+    color: black;
+    .back{
+        a{
+            text-decoration: none !important;
+        }
+    }
+}
 
 
 
@@ -112,4 +150,15 @@ nav{
 body{
     background-color: #0b1426FF !important;
     color: white !important;;
+}
+
+
+@media screen and (max-width: 768px){
+    .sidebar{
+        .sidebarcolomn{
+            display: none !important;
+        }
+    }
+    
+    
 }

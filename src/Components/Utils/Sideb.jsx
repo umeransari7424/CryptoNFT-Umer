@@ -1,23 +1,29 @@
 import React from 'react';
 import { Sidebar, Menu, MenuItem, SubMenu } from 'react-pro-sidebar';
+// import Divider from "@material-ui/core/Divider";
 
 
 function Sideb() {
   return (
     <div>
-        <Sidebar>
+        <Sidebar className='mx-3'>
   <Menu>
-    <SubMenu label="Listing Type">
+    <SubMenu label="Listing Type " >
       <MenuItem> <input type="checkbox" /> Buy Now </MenuItem>
       <MenuItem> <input type="checkbox" /> Auction </MenuItem>
     </SubMenu>
+   
     <SubMenu label="Curation">
       <MenuItem> <input type="checkbox" /> Curated </MenuItem>
       <MenuItem> <input type="checkbox" /> Non-Curated </MenuItem>
     </SubMenu>
+    
     <SubMenu label="Price">
-      <MenuItem> <input type="checkbox" /> minimum </MenuItem>
-      <MenuItem> <input type="checkbox" /> max </MenuItem>
+      <MenuItem> $</MenuItem>
+      <MenuItem> <input type="text" placeholder='Minimum' />  </MenuItem>
+      <MenuItem>-</MenuItem>
+      <MenuItem><input type="text" placeholder='Maximum' /></MenuItem>
+      
     </SubMenu>
     <SubMenu label="Collections">
       <MenuItem></MenuItem>
@@ -37,7 +43,6 @@ function Sideb() {
       <MenuItem> <input type="checkbox" /> sport </MenuItem>
       <MenuItem> <input type="checkbox" /> Music </MenuItem>
       <MenuItem> <input type="checkbox" /> Crypto </MenuItem>
-
     </SubMenu>
 
     
