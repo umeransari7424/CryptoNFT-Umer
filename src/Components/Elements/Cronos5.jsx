@@ -5,7 +5,7 @@ import { IoMdShareAlt } from "react-icons/io";
 import { BiDotsHorizontalRounded } from "react-icons/bi";
 import { Link } from "react-router-dom";
 
-function Cronos() {
+function Cronos5() {
   return (
     <div className="cronos">
       <div className="contianer py-5">
@@ -13,7 +13,7 @@ function Cronos() {
           <div className="col-md-2"></div>
           <div className="col-md-3">
             <div>
-              <img src="Assets/a1.gif" className="img-fluid" alt="A1" />
+              <img src="Assets/a6.png" className="img-fluid" alt="A1" />
             </div>
             <br />
             <div className="card py-3 px-3">
@@ -66,7 +66,7 @@ function Cronos() {
             </div>
             <br />
             <div>
-              <h2>Cronos World Tour at Messari Mainnet 2022</h2>
+              <h2>Cronos World Tour at Token2049 Singapore 2022</h2>
             </div>
             <div className="d-flex">
               <div>
@@ -114,4 +114,4 @@ function Cronos() {
   );
 }
 
-export default Cronos;
+export default Cronos5;

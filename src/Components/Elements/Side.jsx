@@ -67,7 +67,9 @@ function Side() {
           </div>
           <div className="col-md-3 col-12 py-2">
           <div className="card maincard" style={{ width: "300px" }}>
-                  <img src="Assets/a2.gif" className="img-fluid mainimg" alt="a1" />
+          <Link to="/cronos1">
+
+                  <img src="Assets/a2.gif" className="img-fluid mainimg" alt="a1" /></Link>
                   <div class="card-body">
                     <div className="d-flex sidecards">
                       <img
@@ -82,7 +84,7 @@ function Side() {
                       &nbsp;
                     </div> <br />
                     <div className="cronos">
-                      <h6>Cronos World Tour at Messari Mannet 2022</h6>
+                      <h6>Cronos World Tour at Token2049 Singapore 2022</h6>
                     </div>
                     <div>
                       <span>1 minted</span>
@@ -94,7 +96,7 @@ function Side() {
                         Current bid
                         </div>
                         <div>
-                        $ 11
+                        $ 2
                         </div>
                       </div>
                       <div className="d-flex justify-content-between">
@@ -102,7 +104,7 @@ function Side() {
                         Ends In
                         </div>
                         <div>
-                        3 Hours
+                        1 Week
                         </div>
                       </div>
                     </div> &nbsp;
@@ -117,7 +119,9 @@ function Side() {
           </div>
           <div className="col-md-3 col-12 py-2">
           <div className="card maincard" style={{ width: "300px" }}>
-                  <img src="Assets/a3.png" className="img-fluid mainimg" alt="a1" />
+          <Link to="/cronos2">
+
+                  <img src="Assets/a3.png" className="img-fluid mainimg" alt="a1" /></Link>
                   <div class="card-body">
                     <div className="d-flex sidecards">
                       <img
@@ -172,7 +176,9 @@ function Side() {
           </div>
           <div className="col-md-3 col-12 py-2">         
                 <div className="card maincard" style={{ width: "300px" }}>
-                  <img src="Assets/a1.gif" className="img-fluid mainimg" alt="a1" />
+                <Link to='/cronos3'>
+                  <img src="Assets/a4.png" className="img-fluid mainimg" alt="a1" />
+                </Link>
                   <div class="card-body">
                     <div className="d-flex sidecards">
                       <img
@@ -222,7 +228,10 @@ function Side() {
           </div>
           <div className="col-md-3 col-12 py-2">
           <div className="card maincard" style={{ width: "300px" }}>
-                  <img src="Assets/a2.gif" className="img-fluid mainimg" alt="a1" />
+          <Link to='/cronos4'>
+
+                  <img src="Assets/a5.png" className="img-fluid mainimg" alt="a1" />
+          </Link>
                   <div class="card-body">
                     <div className="d-flex sidecards">
                       <img
@@ -237,7 +246,8 @@ function Side() {
                       &nbsp;
                     </div> <br />
                     <div className="cronos">
-                      <h6>Cronos World Tour at Messari Mannet 2022</h6>
+                      <h6>Because I'm EZ <br />
+                       Come EZ Go</h6>
                     </div>
                     <div>
                       <span>1 minted</span>
@@ -249,7 +259,7 @@ function Side() {
                         Current bid
                         </div>
                         <div>
-                        $ 11
+                        $ 1
                         </div>
                       </div>
                       <div className="d-flex justify-content-between">
@@ -257,7 +267,7 @@ function Side() {
                         Ends In
                         </div>
                         <div>
-                        3 Hours
+                        7 Hours
                         </div>
                       </div>
                     </div> &nbsp;
@@ -272,7 +282,9 @@ function Side() {
           </div>
           <div className="col-md-3 col-12 py-2">
           <div className="card maincard" style={{ width: "300px" }}>
-                  <img src="Assets/a3.png" className="img-fluid mainimg" alt="a1" />
+          <Link to='/cronos5'>
+                  <img src="Assets/a6.png" className="img-fluid mainimg" alt="a1" />
+          </Link>
                   <div class="card-body">
                     <div className="d-flex sidecards">
                       <img
