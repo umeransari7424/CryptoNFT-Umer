@@ -1,0 +1,68 @@
+[
+  {
+    "id": "1",
+    "author": "Cryptoverse",
+    "avatar": "/Assets/a22.gif",
+    "img": "/Assets/a1.gif",
+    "name": "Cronos World Tour at Messari Mannet 2022",
+    "type": ["crypto", "Crypto.org Chain"],
+    "status": "53/381 for sale",
+    "offer": "Buy",
+    "price": 36
+  },
+  {
+    "id": "2",
+    "author": "Cryptoverse",
+    "avatar": "/Assets/a22.gif",
+    "img": "/Assets/a2.png",
+    "name": "Bad Billy Goats #2645",
+    "type": ["crypto", "Crypto.org Chain"],
+    "status": "1.6k/8.5k for sale",
+    "offer": "Buy",
+    "price": 19
+  },
+  {
+    "id": "3",
+    "author": "Bad Billy Goats",
+    "avatar": "/Assets/a22.gif",
+    "img": "/Assets/a33.png",
+    "name": "Milestone Miner Mole",
+    "type": ["coronos", "coronos"],
+    "status": "53/381 for sale",
+    "offer": "Bid",
+    "price": 29
+  },
+  {
+    "id": "4",
+    "author": "Nifty Nanas",
+    "avatar": "/Assets/a22.gif",
+    "img": "/Assets/a4.png",
+    "name": "Cute Mummy #2654",
+    "type": ["coronos", "coronos"],
+    "status": "1 minuted",
+    "offer": "Buy",
+    "price": 19
+  },
+  {
+    "id": "5",
+    "author": "CROMMY",
+    "avatar": "/Assets/a22.gif",
+    "img": "/Assets/a5.png",
+    "name": "Thunder Bull",
+    "type": ["coronos", "coronos"],
+    "status": "1 minuted",
+    "offer": "Buy",
+    "price": 19
+  },
+  {
+    "id": "6",
+    "author": "CROCOSNFT",
+    "avatar": "/Assets/a22.gif",
+    "img": "/Assets/a6.png",
+    "name": "Crocos NFT early founder edition",
+    "type": ["coronos", "coronos"],
+    "status": "53/381 for sale",
+    "offer": "Buy",
+    "price": 45
+  }
+]

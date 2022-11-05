@@ -134,6 +134,20 @@ nav{
     }
 }
 .cronos{
+    .card11{
+        border: none;
+        display: flex;
+        flex-direction: row;
+        code{
+          color: black;
+        }
+        span{
+          color: #999DA4;
+        }
+        .border{
+          border-radius: 50%;
+        }
+      }
     background-color: white;
     color: black;
     .back{
