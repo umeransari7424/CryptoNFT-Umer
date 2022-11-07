@@ -1,13 +1,17 @@
-import React from 'react'
+import React from 'react';
+// import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
 
 function Collection() {
   return (
     <div className='collection'>
-        <div className="container-fluid px-4 py-3">
+        <div className="container-fluid  py-3">
             <div className="row py-3">
                 <h4>Top Collections</h4>
             </div>
+            
             <div className="row">
+                
                 <div className="col">
                 <div class="card " style={{height:"230px"}} >
                     <img src="Assets/n.png" alt="original" className='img-fluid geeks' />
@@ -68,6 +72,7 @@ function Collection() {
                     
                 </div>
                 </div>
+               
             </div>
         </div>
     </div>

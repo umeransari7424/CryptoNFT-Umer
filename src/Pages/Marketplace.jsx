@@ -9,7 +9,7 @@ function Marketplace() {
     const {state} = useLocation();
     return (
       <div className="cronos">
-        <div className="contianer py-5">
+        <div className="container-fluid py-5">
           <div className="row">
             <div className="col-md-2"></div>
             <div className="col-md-3">
@@ -144,6 +144,30 @@ function Marketplace() {
                   Cross Chain
                 </button>
               </div>
+            </div>
+          </div>
+          <div className="row mt-3">
+            <div className="col-md-2"></div>
+            <div className="col-md-8 ">
+
+            <div className="card p-3 d-flex justify-content-between cardbottom ">
+              <div className='cardbottom1'>
+
+              
+              <img src={state.img} className ="img-fluid" width={"100px"} alt="" />
+               &nbsp; &nbsp;
+             
+              <h3 className='name text-start'>{state.name}</h3>
+              </div>
+              
+              <div className='buybutton'>
+              <button type="button" className="btn btn-primary btn2"><b>Buy For ${state.price}</b></button> &nbsp;
+              <button type="button" className="btn btn-primary btn1">Make an Offer</button>
+              </div>
+             
+              
+
+            </div>
             </div>
           </div>
         </div>
